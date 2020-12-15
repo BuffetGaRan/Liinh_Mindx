@@ -1,5 +1,5 @@
-let n = Math.floor((Math.random()* 24) + 4);
-let inputNumber = Number(prompt('Nhập vào môt số bất kỳ lớn hơn hoặc bằng 0'));
+// let n = Math.floor((Math.random()* 24) + 4);
+// let inputNumber = Number(prompt('Nhập vào môt số bất kỳ lớn hơn hoặc bằng 0'));
 let x;
 
 do{
@@ -7,15 +7,17 @@ do{
 }while(n % 2 != 0);
 
 function findOppositeNumber(n, inputNumber){
-	if(inputNumber >= 0 && inputNumber <= n-1){
-		x = 180 / (360 / n) + inputNumber;
+
+	if(inputNumber < (n / 2)){
+		x = inputNumber + (n/2);
 		console.log(x);
-		console.log('n ' + n);
 	}
 	else{
-		console.log('bad');
+		x = inputNumber - (n/2);
+		console.log(x);
 	}
 }
 
 findOppositeNumber(10, 2);
+findOppositeNumber(10, 6);
 

@@ -6,7 +6,7 @@ body{
 .container{
 	position: relative;
 	width: 35%;
-	height: 20vh;
+	height: 35vh;
 }
 
 #title{
@@ -39,10 +39,10 @@ body{
 
 #input_text{
 	height: 3.5vh;
+	padding-left: 10px;
 }
 
 #input_text::placeholder{
-	padding-left: 10px;
 	font-weight: bold;
 }
 
