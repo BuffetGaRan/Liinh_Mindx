@@ -1,0 +1,2 @@
+// img_data = '[{"name" : "Ashwin", "age" : "20"},{"name" : "Abhinandan", "age" : "20"}]';
+img_data = '[{"name" : "img1", "url" : "./img/img1.jpg"}]'
